@@ -15,8 +15,8 @@ Este proyecto es una API RESTful para gestionar adopciones de mascotas. Permite 
 
 1. Clona el repositorio:
    ```bash
-   git clone <URL del repositorio>
-   cd backend-three-main
+   git clone https://github.com/maxxidadu8/Backend-Tr3s
+   cd Backend-Tr3s
 
 2. Para ejecutar la aplicación localmente:
    'npm start'
