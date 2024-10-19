@@ -23,7 +23,7 @@ mocksRouter.post('/generateData', async (req, res) => {
       generatedUsers.push({
         name: faker.person.fullName(), // Nombre aleatorio
         email: faker.internet.email(), // Correo electrónico aleatorio
-        password: faker.internet.password(),  // Contraseña aleatoria (debería ser hasheada con bcrypt en producción)
+        password: faker.internet.password(),  // Contraseña aleatoria
         age: faker.number.int({ min: 18, max: 80 }), // Edad aleatoria
         createdAt: new Date(), // Fecha de creación
       });
@@ -38,7 +38,7 @@ mocksRouter.post('/generateData', async (req, res) => {
         name: faker.animal.dog(), // Nombre de la mascota aleatorio
         breed: faker.animal.type(), // Raza aleatoria
         age: faker.number.int({ min: 1, max: 15 }), // Edad aleatoria
-        owner: faker.person.fullName(), // Propietario aleatorio (debería ser una relación real en producción)
+        owner: faker.person.fullName(), // Propietario aleatorio 
         createdAt: new Date(), // Fecha de creación
       });
     }

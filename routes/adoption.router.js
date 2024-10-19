@@ -96,5 +96,5 @@ router.delete('/:id', (req, res) => {
   res.status(204).send(); // Responde con un estado 204
 });
 
-// Exportar el router
+// Exporta el router
 module.exports = router;

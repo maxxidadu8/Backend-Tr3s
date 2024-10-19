@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../app'); // Asegúrate de importar tu aplicación aquí
+const app = require('../app');
 
 describe('Adoption Routes', () => {
   let adoptionId; // Variable para almacenar el ID de la adopción creada

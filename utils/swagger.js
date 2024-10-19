@@ -12,7 +12,7 @@ const setupSwagger = (app) => {
       },
       servers: [
         {
-          url: 'http://localhost:3000', // Cambia esto si tu servidor corre en otro puerto
+          url: 'http://localhost:3000', 
         },
       ],
     },

@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../app'); // Asegúrate de que esta ruta sea correcta
+const app = require('../app'); 
 const User = require('../models/user.model');
 const Pet = require('../models/pet.model');
 const mongoose = require('mongoose'); // Importa mongoose
@@ -10,7 +10,6 @@ describe('Mock API', () => {
     await Pet.deleteMany({});
   });
 
-  // Asegúrate de cerrar la conexión a la base de datos después de todos los tests
   afterAll(async () => {
     await mongoose.connection.close(); // Cierra la conexión a la base de datos
   });

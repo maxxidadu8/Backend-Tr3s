@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../models/user.model'); // Asegúrate de que la ruta sea correcta
+const User = require('../models/user.model'); 
 
 /**
  * @swagger
